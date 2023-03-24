@@ -1,5 +1,5 @@
 # Gentoo Dotfiles
 
-<img src="preview.png" alt="Just a little preview of what my configs are like">
+![A image](preview.png)
 
 Literally just safekeeping my dotfiles and configs.
