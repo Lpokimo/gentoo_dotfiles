@@ -35,7 +35,8 @@ mv nvim ~/.config/nvim
 
 git clone https://git.suckless.org/st
 
-mv config.h config.p st.c st.h st.o st
+mv stconfigs/* st
+rm -r stconfigs
 
 sudo emerge -q keepassxc
 
