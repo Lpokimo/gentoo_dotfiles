@@ -1,5 +1,5 @@
 # Gentoo Dotfiles
 
-![A image](preview.png)
+![Preview screenshot](static/preview.png)
 
 Literally just safekeeping my dotfiles and configs.
