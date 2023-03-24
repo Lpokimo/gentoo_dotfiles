@@ -12,8 +12,19 @@ sudo emerge -q librewolf
 
 sudo emerge -q bspwm
 sudo emerge -q sxhkd
+sudo emerge -q wal
+sudo emerge -q feh
+
+mkdir ~/Pictures
+mkdir ~/Pictures/Wallpapers
+
+
 mv bspwm ~/.config/bspwm
 mv sxhkd ~/.config/sxhkd
+mv static/colors.sh ~/.cache/wal/colors.sh
+mv static/nasa.png ~/Pictures/Wallpapers/nasa.png
+
+
 
 sudo emerge -q polybar
 mv polybar ~/.config/polybar
