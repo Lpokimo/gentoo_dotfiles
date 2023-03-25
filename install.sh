@@ -14,6 +14,7 @@ sudo emerge -q bspwm
 sudo emerge -q sxhkd
 sudo emerge -q wal
 sudo emerge -q feh
+sudo emerge -q x11-misc/lightdm
 
 mkdir ~/Pictures
 mkdir ~/Pictures/Wallpapers
@@ -24,6 +25,9 @@ mv config/sxhkd ~/.config/sxhkd
 mv static/colors.sh ~/.cache/wal/colors.sh
 mv static/nasa.png ~/Pictures/Wallpapers/nasa.png
 
+sudo rc-update add dbus default
+sudo rc-update add display-manager default
+echo "DISPLAYMANAGER="lightdm"" >> /etc/conf.d/display-manager
 
 
 sudo emerge -q polybar

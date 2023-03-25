@@ -10,7 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="af-magic"
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zshauto/zsh-autosuggestions.zsh
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -93,7 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
-
+# fi
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 export PATH="${PATH}:${HOME}/.local/bin/"
@@ -106,7 +106,7 @@ export PATH="${PATH}:${HOME}/.local/bin/"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
   alias sudo="doas"
- # alias ping="ping gentoo.org"
+# alias ping="ping gentoo.org"
   alias sl="ls"
   alias s="ls"
   alias shutdown="doas shutdown now -h" 
@@ -116,3 +116,5 @@ export PATH="${PATH}:${HOME}/.local/bin/"
   alias v="nvim"
   alias vik="nvim"
   alias svim="nvim"
+
+
